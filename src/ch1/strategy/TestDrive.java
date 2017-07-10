@@ -11,5 +11,9 @@ public class TestDrive {
 		
 		duck = new MallardDuck();
 		duck.quack();
+		
+		duck = new RubberDuck();
+		duck.display();
+		duck.fly();
 	}
 }
